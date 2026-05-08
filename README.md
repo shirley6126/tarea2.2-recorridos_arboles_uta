@@ -1,7 +1,6 @@
 # Recorridos de Árboles Binarios - Estructura de Datos
 
 **Universidad Técnica de Ambato**  
-**Autor:** Shirley Amaguaña  
 **Carrera:** Ingeniería de Software  
 **Asignatura:** Estructura de Datos  
 **Curso:** Tercero B  
@@ -70,7 +69,7 @@ Nivel 2: Nietos de la raíz
 | `exercises/` | Ejercicios para trabajo grupal |
 | `moodle/` | Banco de preguntas tipo Moodle |
 | `assets/` |captura_cpp.png |
-│   └── captura_java.png |
+│           |captura_java.png |
 
 ## Reglas de recorrido
 
@@ -152,6 +151,38 @@ tiene áreas, las áreas tienen módulos, y los módulos tienen submódulos. El 
 refleja exactamente esa relación.
 
 ---
+## Capturas de ejecución:
+**Ejecución en C++**
+
+<img width="1382" height="570" alt="captura_cpp" src="https://github.com/user-attachments/assets/8157c012-a475-4d4c-b100-9ca105c05d84" />
+
+**Ejecución en Java**
+
+<img width="1398" height="632" alt="captura_java" src="https://github.com/user-attachments/assets/8f6a4cb1-d9fc-455b-b61a-0753c622fe42" />
+
+## Uso de GitHub e IA
+**Uso de GitHub**
+
+Todo el trabajo de la práctica fue versionado y subido al repositorio del grupo en GitHub. 
+
+**Uso de Inteligencia Artificial**
+
+Se utilizó la herramienta de IA Claude (Anthropic) como apoyo durante el desarrollo de la práctica.
+
+Se uso en:
+
+**Revisión de comentarios del código**
+
+- La IA sugirió comentarios más claros y naturales. El grupo los revisó y adaptó al contexto del proyecto SmartCampus.
+
+**Estructura del informe**
+
+- Se consultó a la IA sobre cómo organizar las secciones. El grupo decidió qué incluir según los requisitos del README del docente.
+
+**Redacción del README**
+
+- La IA apoyó en el formato y redacción. El contenido (nodos, caso real, salida de consola) fue definido por el grupo.
+
 ## Actividad  sugerida:
 
 1. Clonar el repositorio.
