@@ -1,7 +1,5 @@
 # Guía Práctica: Recorridos de Árboles Binarios
 
-# Guía Práctica: Recorridos de Árboles Binarios
-
 ## Datos Generales
 
 | Campo | Información |
@@ -149,9 +147,9 @@ Después de ejecutar ambos programas verificamos que:
 - La única diferencia entre los dos programas es la sintaxis: `cout` en C++ vs
   `System.out.print` en Java, y `queue<Nodo*>` vs `Queue<Nodo>` con `LinkedList`.
 
-> La lógica de los algoritmos es completamente igual en ambos lenguajes. Esto
-> confirma que los recorridos de árboles son independientes del lenguaje de
-> programación.
+La lógica de los algoritmos es completamente igual en ambos lenguajes. Esto
+confirma que los recorridos de árboles son independientes del lenguaje de
+programación.
 
 ---
 
