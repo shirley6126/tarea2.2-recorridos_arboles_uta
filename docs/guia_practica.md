@@ -258,10 +258,10 @@ Saco Academica, meto sus hijos: [Auth JWT, Roles, Materias, Sesiones]
 **Preorden** visita la raíz antes que los hijos, lo que lo hace útil cuando
 necesitamos procesar el elemento padre antes de trabajar con sus dependencias.
 
-**En nuestro proyecto SmartCampus:** Preorden sería útil para **inicializar los
-módulos del sistema al arrancar la aplicación**. Primero se carga `SmartCampus Web`
-(la raíz), luego `Gestión de Usuarios` y `Gestión Académica`, y finalmente los
-submódulos como `Auth JWT`, `Materias`, etc. Tiene sentido porque no puedes
+En nuestro proyecto SmartCampus: 
+Preorden sería útil para **inicializar los módulos del sistema al arrancar la aplicación**. 
+Primero se carga `SmartCampus Web` (la raíz), luego `Gestión de Usuarios` y `Gestión Académica`,
+y finalmente los submódulos como `Auth JWT`, `Materias`, etc. Tiene sentido porque no puedes
 inicializar `Auth JWT` si el módulo de Usuarios todavía no existe.
 
 ---
@@ -272,11 +272,11 @@ inicializar `Auth JWT` si el módulo de Usuarios todavía no existe.
 que procesar las dependencias internas antes de trabajar con el elemento que las
 contiene.
 
-**En nuestro proyecto SmartCampus:** Postorden sería útil para **apagar o desconectar
-módulos del sistema de forma segura**. Primero se cierra `Asistencia (Cola)`, luego
-`Sesiones (L.Circular)`, luego `Materias`, y finalmente `Gestión Académica`. Si
-intentáramos cerrar `Gestión Académica` primero, dejaríamos sus submódulos sin módulo
-padre, generando referencias sueltas en memoria.
+En nuestro proyecto SmartCampus: Postorden sería útil para **apagar o desconectar
+módulos del sistema de forma segura**. 
+Primero se cierra `Asistencia (Cola)`, luego `Sesiones (L.Circular)`, luego `Materias`,
+y finalmente `Gestión Académica`. Si intentáramos cerrar `Gestión Académica` primero, 
+dejaríamos sus submódulos sin módulo padre, generando referencias sueltas en memoria.
 ---
 
 ## Uso de IA
