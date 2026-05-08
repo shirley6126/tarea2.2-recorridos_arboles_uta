@@ -1,13 +1,18 @@
 # Guía Práctica: Recorridos de Árboles Binarios
 
+# Guía Práctica: Recorridos de Árboles Binarios
+
 ## Datos Generales
-| **Asignatura** Estructura de Datos
-| **Curso** Tercero "B"
-| **Tema**  Recorridos Inorden, Preorden, Postorden y BFS 
-| **Lenguajes**  C++ y Java 
-| **Modalidad** Trabajo grupal con GitHub
-| **Integrantes**  Amaguaña Shirley, Coello Leslie, Fernando Llerena
-| **Fecha** Mayo 2026 
+
+| Campo | Información |
+|---|---|
+| **Asignatura** | Estructura de Datos |
+| **Curso** | Tercero "B" |
+| **Tema** | Recorridos Inorden, Preorden, Postorden y BFS |
+| **Lenguajes** | C++ y Java |
+| **Modalidad** | Trabajo grupal con GitHub |
+| **Integrantes** | Amaguaña Shirley, Coello Leslie, Fernando Llerena |
+| **Fecha** | Mayo 2026 |
 
 ## Introducción
 
