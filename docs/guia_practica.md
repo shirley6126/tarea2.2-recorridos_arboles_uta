@@ -207,6 +207,7 @@ Esto funciona porque en un BST la regla es que el hijo izquierdo siempre tiene u
 valor menor que la raíz, y el hijo derecho siempre tiene un valor mayor. Entonces,
 si seguimos el orden Izquierda → Raíz → Derecha, automáticamente visitamos los
 nodos del más pequeño al más grande.
+
 ---
 
 ### 2. ¿Qué diferencia existe entre DFS y BFS?
@@ -277,6 +278,7 @@ módulos del sistema de forma segura**.
 Primero se cierra `Asistencia (Cola)`, luego `Sesiones (L.Circular)`, luego `Materias`,
 y finalmente `Gestión Académica`. Si intentáramos cerrar `Gestión Académica` primero, 
 dejaríamos sus submódulos sin módulo padre, generando referencias sueltas en memoria.
+
 ---
 
 ## Uso de IA
