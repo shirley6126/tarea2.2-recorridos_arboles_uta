@@ -51,7 +51,7 @@ void inorden(Nodo* raiz) {
 
 Respuesta esperada: inorden
 
-
+                                                                  
 Solucion:
 ```cpp
 void inorden(Nodo* raiz) {
